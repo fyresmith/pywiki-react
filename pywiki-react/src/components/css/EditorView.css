@@ -1,0 +1,62 @@
+.noMargin {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.textArea {
+    border: none !important;
+    resize: none;
+    border-radius: none !important;
+    padding: 5px !important; /* Add padding to maintain spacing */
+    font-size: 0.78rem !important; /* Set font size to default */
+    line-height: 1.5 !important; /* Set line height to default */
+    color: inherit !important; /* Inherit text color */
+    background-color: transparent !important; /* Set background color to transparent */
+    box-shadow: none !important; /* Remove box shadow */
+    outline: none !important; /* Remove outline */
+}
+
+textArea:focus {
+    border: none;
+}
+
+.textBox {
+    border: none !important;
+    /* padding: 0px; */
+    margin: 0px;
+    outline: none;
+    background-color: #ffffff00;
+}
+
+.textBox:focus {
+    margin: 0px;
+    box-shadow: none;
+    outline: none;
+    background-color: #ffffff00;
+}
+
+.titleBox {
+    font-size: 22px;
+}
+
+mark {
+    border-radius: 3px;
+}
+
+:root {
+    --quote-highlight-color: #d6ffd652;
+    --emphatic-highlight-color: #ffff9452;
+    --bold-highlight-color: #ffe6cc52;
+    --italic-highlight-color: #ffe6cc52;
+    --code-highlight-color: #e3ffed52;
+    --header-highlight-color: #d6d6ff52;
+    --link-highlight-color: #ffd6ff52;
+    --image-highlight-color: #ffe6cc52;
+    --numbered-list-highlight-color: #ffdcd652;
+    --list-highlight-color: #e3ffed52;
+    --hr-highlight-color: #ccd6ff52;
+    --link-highlight-color: #2b55ff52;
+    --footnote-highlight-color: #ffff0a52;
+    --infobox-highlight-color: #04cbce52;
+    --table-highlight-color: #be0aff52;
+}

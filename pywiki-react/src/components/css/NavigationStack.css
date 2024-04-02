@@ -1,0 +1,25 @@
+:root {
+    --navLink-hover-bg-color: #2f3239;
+    --navLink-active-bg-color: #393d44;
+}
+
+.innerNav {
+    margin-left: 20px;
+}
+
+.navLink {
+    padding: 10px 10px;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.navLink:hover {
+    background-color: var(--navLink-hover-bg-color);
+    cursor: pointer;
+}
+
+.navLink:active {
+    background-color: var(--navLink-active-bg-color);
+    cursor: pointer;
+}

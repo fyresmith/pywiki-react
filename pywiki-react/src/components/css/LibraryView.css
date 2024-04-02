@@ -1,0 +1,33 @@
+:root {
+    --navLink-hover-bg-color: #2f3239;
+    --navLink-active-bg-color: #393d44;
+}
+
+.listGroup {
+    padding: 0px;
+    margin: 0px;
+    /* margin-bottom: 5px; */
+}
+
+.listItem {
+    text-align: center;
+    padding: 6px 10px;
+    background-color: #2f323900;
+}
+
+.listItem:last-child {
+    text-align: center;
+    padding: 5px 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.listItem:hover {
+    background-color: var(--navLink-hover-bg-color);
+    cursor: pointer;
+}
+
+.listItem:active {
+    background-color: var(--navLink-active-bg-color);
+    cursor: pointer;
+}

@@ -1,0 +1,25 @@
+.labelTitle {
+    padding-right: 0px;
+    font-size: 13px;
+}
+
+.infoText {
+    font-size: 13px;
+}
+
+.infoBody {
+    padding: 12px;
+}
+
+.infoTitle {
+    font-size: 16px;
+}
+
+.infoGroup {
+    font-size: 16px;
+}
+
+.labelValue {
+    padding-left: 2px;
+    font-size: 13px;
+}

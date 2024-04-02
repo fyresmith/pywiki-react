@@ -1,0 +1,96 @@
+:root {
+    --header-underline: #fff;
+
+    --code-bg: #2b3035;
+    --code-border: #3f464d;
+    --code-color: #dfdfdf !important;
+
+    --table-border: ;
+    --table-bg: #212529;
+    --table-th: #2b3035;
+
+    --blockquote-border: #888;
+}
+
+.page h2 {
+    font-size: 35px;
+    padding-bottom: 2px;
+    border-bottom: 0.5px solid var(--header-underline);
+    font-family: "Crimson Pro", serif;
+}
+
+.page h3 {
+    font-size: 27px;
+    font-weight: 700;
+}
+
+.page h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.page code {
+    font-family: 'Roboto Mono', monospace;
+    color: var(--code-color);
+    font-weight: 500;
+    font-size: 14px;
+    background-color: var(--code-bg);
+    padding: 10px;
+    border: 1px solid var(--code-border);
+    border-radius: 4px;
+    display: block;
+    margin: 15px 0;
+    overflow-x: auto;
+}
+
+.page blockquote {
+    border-left: 2px solid var(--blockquote-border);
+    padding-left: 15px;
+    margin: 15px 0;
+    font-style: italic;
+    color: var(--code-color);
+}
+
+.page .table-main table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #fcfcfc;
+}
+
+.page .table-main th, .table-main td {
+    padding: 12px;
+    border: 1px solid #3f464d;
+    text-align: left;
+}
+
+.page .table-main th {
+    background-color: #2b3035;
+}
+
+.page .table-main tbody tr:nth-child(even) {
+    background-color: var(--table-bg);
+}
+
+.page .table-main thead {
+    background-color: #2b3035;
+    color: #fff;
+}
+
+@media screen and (max-width: 600px) {
+    .page .table-main table {
+        border: 1px solid #2b3035;
+    }
+
+    .page .table-main th, .table-main td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .page .table-main th {
+        text-align: center;
+        background-color: ;
+    }
+}
